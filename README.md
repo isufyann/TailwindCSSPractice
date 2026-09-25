@@ -1,6 +1,8 @@
 # Jumbo file for Tailwind CSS
 
 ## Links are below
+---
+---
 
 ### 1. Tailwind CSS UI_01
 
@@ -26,4 +28,37 @@ Topics to learn next:
 * Positioning
 * Responsible
 
-  [Fundamentals]()
+[Fundamentals](UI_01/README.md)
+
+---
+
+### 2. Tailwind CSS UI_02
+
+Layout Mastery:
+
+```text
+Here are Layout Mastery of Tailwind.
+```
+**Understand the CSS Layout Model through Tailwind CSS.**
+
+Topics to learn next:
+
+* Box model
+* Content
+* Padding
+* Border
+* Margin
+* Width and height
+* `box-sizing`
+* Spacing
+* Flexbox
+* Grid
+* Positioning
+* Responsible
+
+[Layout Mastery](UI_02/README.md)
+
+---
+
+
+
