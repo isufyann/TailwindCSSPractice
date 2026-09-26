@@ -6,7 +6,7 @@
 
 ### 1. Tailwind CSS UI_01
 
-Fundamentals:
+**Fundamentals:**
 
 ```text
 Here are Fundamentals of Tailwind.
@@ -34,7 +34,7 @@ Topics to learn next:
 
 ### 2. Tailwind CSS UI_02
 
-Layout Mastery:
+**Layout Mastery:**
 
 ```text
 Here are Layout Mastery of Tailwind.
@@ -60,5 +60,41 @@ Topics to learn next:
 
 ---
 
+### 3. Tailwind CSS UI_03
+
+**Mobile Responsive:**
+
+```text
+Here are Mobile Responsive of Tailwind.
+```
+
+**Understand the CSS Mobile Layout Model throughw Tailwind CSS.**
+
+Topics to learn next:
+
+
+* Understand mobile-first design
+* Use sm:
+* Use md:
+* Use lg:
+* Use xl:
+* Use 2xl:
+* Change typography responsively
+* Change spacing responsively
+* Change layout responsively
+* Hide/show elements responsively
+* Change grid columns responsively
+* Change flex direction responsively
+* Build mobile navigation
+* Build responsive cards
+* Build responsive tables
+* Build responsive hero sections
+
+**Build: A completely responsive landing page from mobile → desktop.**
+
+
+[Mobile Responsive](UI_03/README.md)
+
+---
 
 
