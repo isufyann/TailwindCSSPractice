@@ -463,6 +463,43 @@ col-span-3
 col-span-4
 ```
 
+# Responsive Design
+
+## 19. Responsive Grids
+
+This is extremely important for real-world websites.
+
+```
+<div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+```
+
+Meaning:
+
+```
+Mobile       → 1 column
+md           → 2 columns
+lg           → 4 columns
+```
+
+Visual:
+
+### Mobile
+
+|Card 1 |
+|---|
+|Card 2 |
+|Card 3 |
+
+### Desktop
+
+|1|2|3|4
+|---|---|---|---|
+
+### This is Tailwind's mobile-first responsive approach.
+--- 
+
+
+
 
 
 
