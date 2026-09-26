@@ -218,6 +218,266 @@ justify → horizontal
 ```
 
 
+## 10. items-*
+
+items-* controls the cross axis.
+
+Common values:
+
+```
+items-start
+items-center
+items-end
+items-stretch
+```
+
+Example:
+
+```
+<div className="flex h-24 items-center">
+  <p>Hello</p>
+</div>
+```
+
+The text becomes vertically centered.
+
+The most common combination you'll see is:
+
+```
+<div className="flex items-center justify-between">
+```
+
+## 11. content-*
+
+content-* controls the alignment of multiple flex lines when flex-wrap is being used.
+
+```
+<div className="flex flex-wrap content-center h-96">
+  ...
+</div>
+```
+
+Common:
+* content-start
+* content-center
+* content-end
+* content-between
+* content-around
+* content-evenly
+
+### Important difference
+
+```
+items-*   → alignment of flex items
+content-* → alignment of flex lines
+```
+
+You will use items-* much more often.
+
+## 12. gap-*
+gap-* adds spacing between children.
+
+```<div className="flex gap-4">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+</div>
+```
+
+```
+One    Two    Three
+```
+
+You can use:
+```
+gap-2
+gap-4
+gap-6
+gap-8
+```
+
+It also works with Grid:
+
+```
+<div className="grid grid-cols-3 gap-6">
+```
+
+---
+
+## 13. space-x-*
+
+Adds horizontal spacing between children.
+```
+<div className="flex space-x-4">
+  <div>One</div>
+  <div>Two</div>
+  <div>Three</div>
+</div>
+```
+Think:
+```
+One → space → Two → space → Three
+```
+
+--- 
+
+## 14. space-y-*
+
+Adds vertical spacing between children.
+
+```
+<div className="space-y-4">
+  <p>First</p>
+  <p>Second</p>
+  <p>Third</p>
+</div>
+```
+
+Result:
+
+```
+First
+
+Second
+
+Third
+```
+
+### gap vs space
+
+**For new layouts, gap-** is usually easier:*
+
+```
+<div className="flex flex-col gap-4">
+```
+
+--- 
+
+## 15. Grid
+
+grid creates a CSS Grid container.
+
+```
+<div className="grid">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
+```
+
+Usually you'll combine it with columns:
+
+```<div className="grid grid-cols-3">
+```
+
+---
+
+## 16. Define Grid Columns
+
+Use grid-cols-*.
+
+2 columns
+
+```
+<div className="grid grid-cols-2 gap-4">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+</div>
+```
+
+|1|2|
+|-|-|
+|3|4|
+
+
+### 3 columns
+
+```
+<div className="grid grid-cols-3 gap-4">
+```
+
+### 4 columns
+
+```
+<div className="grid grid-cols-4 gap-4">
+```
+
+## 17. Define Grid Rows
+
+Use:
+
+grid-rows-*
+
+Example:
+
+```
+<div className="grid grid-cols-3 grid-rows-2 gap-4">
+```
+
+This creates:
+
+3 columns
+×
+2 rows
+
+|1|2|3|
+|-|-|-|
+|4|5|6|
+
+--- 
+
+## 18. col-span-*
+
+Allows an item to occupy multiple columns.
+
+```
+<div className="grid grid-cols-4 gap-4">
+```
+
+```
+  <div className="col-span-2">
+    Wide Box
+  </div>
+
+  <div>Box</div>
+
+  <div>Box</div>
+
+</div>
+```
+
+---
+
+col-span-2 means:
+
+``` This element occupies 2 columns. ```
+
+You can also use:
+
+```
+col-span-1
+col-span-2
+col-span-3
+col-span-4
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
