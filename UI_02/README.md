@@ -498,25 +498,165 @@ Visual:
 ### This is Tailwind's mobile-first responsive approach.
 --- 
 
+## 20. place-items-*
+
+place-items-* controls item alignment in a grid.
+
+For example:
+
+```
+<div className="grid min-h-screen place-items-center">
+  <h1 className="text-4xl font-bold">
+    Hello World
+  </h1>
+</div>
+```
+
+The heading is centered horizontally and vertically.
+
+Common:
+
+```
+place-items-start
+place-items-center
+place-items-end
+```
+
+--- 
+
+## 🧠 Most Important Concept
+
+Understand **axes**, rather than memorizing everything.
+With:
+
+```
+<div className="flex flex-row">
+```
+
+```
+Main axis →
+─────────────────────
+
+Cross axis
+    ↓
+```
+
+Therefore:
+
+```
+justify-* → main axis
+items-*   → cross axis
+
+```
+
+So:
+
+```
+<div className="flex flex-row justify-center items-center">
+```
+
+means:
+
+```
+justify-center → center horizontally
+items-center   → center vertically
+```
+
+But when you use:
+
+```
+<div className="flex flex-col">
+```
+
+the main axis becomes vertical:
+
+```
+Main axis
+   ↓
+   │
+   │
+   ↓
+
+Cross axis →
+```
+
+So:
+
+```
+justify-* → vertical
+items-*   → horizontal
+```
+
+--- 
+
+# Flexbox vs Grid 
+
+## Use Flexbox
+
+When arranging things primarily in **one direction:**
+
+```
+<div className="flex items-center justify-between">
+  <Logo />
+  <Navigation />
+</div>
+```
+
+Perfect for:
+
+*	Navbar 
+*	Buttons 
+*	Horizontal menus 
+*	Small component layouts 
+
+## Use Grid
+
+When arranging things in **rows and columns:**
+
+```
+<div className="grid grid-cols-3 gap-6">
+  <Card />
+  <Card />
+  <Card />
+</div>
+```
+
+Perfect for:
+
+*	Product cards 
+*	Image galleries 
+*	Dashboards 
+*	Pricing cards 
+*	Feature sections 
+
+**Your key Tailwind layout toolkit**
 
 
+```
+Display
+├── block
+├── inline
+├── inline-block
+├── flex
+└── grid
+
+Flexbox
+├── flex-row
+├── flex-col
+├── flex-wrap
+├── justify-*
+├── items-*
+├── content-*
+├── gap-*
+├── space-x-*
+└── space-y-*
+
+Grid
+├── grid-cols-*
+├── grid-rows-*
+├── col-span-*
+├── gap-*
+└── place-items-*
+```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-End Lecture UI-02
