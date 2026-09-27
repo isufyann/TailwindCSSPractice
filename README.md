@@ -92,8 +92,43 @@ Topics to learn next:
 
 **Build: A completely responsive landing page from mobile → desktop.**
 
-
 [Mobile Responsive](UI_03/README.md)
+
+---
+
+
+### 4. Tailwind CSS UI_03
+
+**Typography:**
+
+```text
+Typography controls how your text looks, feels, and behaves. These utilities are used constantly in React/Next.js projects.
+```
+
+**Understand the Typography Tailwind CSS.**
+
+Topics to learn next:
+
+
+* Font family
+* Font size
+* Font weight
+* Line height
+* Letter spacing
+* Text alignment
+* Text decoration
+* Text transformation
+* Text truncation
+* line-clamp
+* Gradient text
+* Responsive typography
+* Custom Google Fonts
+* Heading hierarchy
+
+**Build: A professional documentation/article page with headings, paragraphs, lists and code blocks.**
+
+
+[Typography](UI_04/README.md)
 
 ---
 
