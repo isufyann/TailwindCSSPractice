@@ -97,7 +97,7 @@ Topics to learn next:
 ---
 
 
-### 4. Tailwind CSS UI_03
+### 4. Tailwind CSS UI_04
 
 **Typography:**
 
@@ -129,6 +129,43 @@ Topics to learn next:
 
 
 [Typography](UI_04/README.md)
+
+---
+
+
+### 5. Tailwind CSS UI_05
+
+**Colors & Visual Design:**
+
+```text
+Tailwind provides color utilities that you can use for backgrounds, text, borders, rings, and more.
+```
+
+**Understand the Tailwind Colors, bg, Border colors, Ring colors, Opacity, Color combinations, Neutral, Brand, Dark color palettes
+Gradient backgrounds, text, Multi-color gradients, Hover color changes .**
+
+Topics to learn next:
+
+
+* Tailwind color system
+* Background colors
+* Text colors
+* Border colors
+* Ring colors
+* Opacity
+* Color combinations
+* Neutral color palettes
+* Brand color palettes
+* Dark color palettes
+* Gradient backgrounds
+* Gradient text
+* Multi-color gradients
+* Hover color changes
+
+**Build: A modern SaaS pricing section using a consistent color system.**
+
+
+[Colors & Visual Design](UI_05/README.md)
 
 ---
 
