@@ -169,4 +169,29 @@ Topics to learn next:
 
 ---
 
+### 6. Tailwind CSS UI_06
+
+**Borders, Radius & Shadow**
+
+```text
+Tailwind provides modern color system, focus:ring, border, rounded properties.
+```
+**Understand tailwind CSS borders, radius, rounded, circle elements, shadow, Focus ring, border opacity**
+
+Topics to learn:
+
+* Border width
+* Individual borders
+* Border styles
+* Border radius
+* Rounded cards, buttons
+* Circle elements
+* Shadow/Custom shadow
+* Rings, Focus:ring
+* Divide utilities
+* Border opacity
+
+**Build: A modern pricing card with hover elevation and focus states.**
+
+[Border, Radius & Shadow](UI_05/README.md)
 
