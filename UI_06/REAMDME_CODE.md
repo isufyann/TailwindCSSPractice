@@ -390,4 +390,5 @@ export default function Pricing() {
 
 ```
 
-[Image for reference]()
+[Image for reference]<img width="169" height="485" alt="image" src="https://github.com/user-attachments/assets/ad0e163c-d3ab-4509-a0a7-45d959816b18" />
+)
