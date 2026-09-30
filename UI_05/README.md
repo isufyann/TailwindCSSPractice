@@ -1,5 +1,5 @@
 
-# 1. Tailwind CSS — UI-5 Colors & Visual design
+# 5. Tailwind CSS — UI-5 Colors & Visual design
 
 Tailwind provides color utilities that you can use for backgrounds, text, borders, rings, and more.
 
