@@ -1,10 +1,10 @@
-Tailwind CSS — Background Images & Image Utilities
+# Tailwind CSS — Background Images & Image Utilities
 
 This topic is very important for creating hero sections, landing pages, product cards, blogs, portfolios, and modern SaaS websites.
 
 We’ll cover your topics in order and then build an AI-tech hero section.
 
-1. Background Images
+## 1. Background Images
 
 Tailwind lets you use an image as a CSS background.
 
@@ -14,15 +14,20 @@ background-image: url("/ai.jpg");
 
 In Tailwind, you can use an arbitrary value:
 
+
+```
 <div className="bg-[url('/ai.jpg')]">
+```
 
 Example:
 
+```
 <section className="
   bg-[url('/ai.jpg')]
   h-[500px]
 ">
 </section>
+```
 
 Put your image inside:
 
@@ -36,59 +41,75 @@ bg-[url('/ai.jpg')]
 references:
 
 /public/ai.jpg
-2. Background Positioning
+## 2. Background Positioning
 
 Background positioning controls which part of the image is visible.
 
 Common classes:
 
+```
 bg-center
 bg-top
 bg-bottom
 bg-left
 bg-right
+```
 
 Example:
 
+```
 <section className="
   bg-[url('/ai.jpg')]
   bg-center
 ">
 </section>
+```
 
 You can also use combinations:
 
+```
 bg-top-left
 bg-top-right
 bg-bottom-left
 bg-bottom-right
+```
+
 Example
+
+```
 <div className="
   h-96
   bg-[url('/ai.jpg')]
   bg-center
 ">
 </div>
+```
 
 If the important subject is on the right side of your image:
 
+```
 <div className="
   bg-[url('/ai.jpg')]
   bg-right
 ">
 </div>
-3. Background Sizing
+```
+
+## 3. Background Sizing
 
 Background sizing determines how the image fits inside the element.
 
 The most important classes are:
 
+```
 bg-cover
 bg-contain
 4. bg-cover
+```
 
 bg-cover makes the image cover the entire element.
 
+```
 <section className="
   h-[500px]
   bg-[url('/ai.jpg')]
@@ -96,9 +117,11 @@ bg-cover makes the image cover the entire element.
   bg-center
 ">
 </section>
+```
 
-Think:
+###Think:###
 
+```
 Container
 ┌─────────────────────────────┐
 │                             │
@@ -106,6 +129,7 @@ Container
 │       entire area           │
 │                             │
 └─────────────────────────────┘
+```
 
 The image may be cropped to fill the container.
 
@@ -113,13 +137,16 @@ Most common use
 
 Hero sections:
 
+```
 <section className="
   min-h-screen
   bg-[url('/hero.jpg')]
   bg-cover
   bg-center
 ">
-5. bg-contain
+```
+
+## 5. bg-contain
 
 bg-contain makes the entire image visible inside the container.
 
