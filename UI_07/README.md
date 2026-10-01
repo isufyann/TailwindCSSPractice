@@ -2,6 +2,23 @@
 
 This is an important Tailwind topic because positioning is used for **navbars, badges, dropdowns, modals, floating buttons, notifications, and dashboards.**
 
+
+### Tailwind CSS Positioning — relative, absolute, fixed, sticky
+
+These four utilities are extremely important when building navbars, badges, dropdowns, modals, floating buttons, dashboards, tooltips, and cards.
+
+**The easiest way to understand them is:**
+
+|Tailwind|	CSS|	Main purpose|
+|--------|--------------------|
+|relative|	position: relative|	Creates a positioning reference|
+|absolute|	position: absolute|	Positions an element relative to a positioned parent|
+|fixed|	position: fixed|	Fixes an element to the viewport|
+|sticky|	position: sticky|	Sticks an element while scrolling|
+
+
+
+
 The main idea is:
 
 ```
