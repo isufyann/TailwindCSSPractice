@@ -1,4 +1,4 @@
-# 6 Tailwind CSS — Positioning UI-07
+# 7 Tailwind CSS — Positioning UI-07
 
 This is an important Tailwind topic because positioning is used for **navbars, badges, dropdowns, modals, floating buttons, notifications, and dashboards.**
 
