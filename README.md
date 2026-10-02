@@ -227,3 +227,32 @@ Topics to learn:
 
 [Positioning](UI_07/README.md)
 
+### 8. Tailwind CSS UI_08
+
+**Images & Backgrounds**
+
+```text
+Tailwind provides modern positioning properties.
+```
+**Understand tailwind CSS relative, absolute, fixed, sticky, inset, z-0, floating buttons, sticky navigation**
+
+Topics to learn:
+
+* Background images
+* Background positioning
+* Background sizing
+* bg-cover
+* bg-contain
+* Background gradients
+* Background overlays
+* Object positioning
+* Object fit
+* Image aspect ratios
+* Image cards
+* Hero image overlays
+
+**Build: An AI-tech hero section with background image, gradient overlay and CTA.**
+
+
+[Positioning](UI_08/README.md)
+
