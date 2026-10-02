@@ -193,5 +193,37 @@ Topics to learn:
 
 **Build: A modern pricing card with hover elevation and focus states.**
 
-[Border, Radius & Shadow](UI_05/README.md)
+[Border, Radius & Shadow](UI_06/README.md)
+
+### 7. Tailwind CSS UI_07
+
+**Positioning**
+
+```text
+Tailwind provides modern positioning properties.
+```
+**Understand tailwind CSS relative, absolute, fixed, sticky, inset, z-0, floating buttons, sticky navigation**
+
+Topics to learn:
+
+* relative
+* absolute
+* fixed
+* sticky
+* inset-*
+* top-*
+* right-*
+* bottom-*
+* left-*
+* z-*
+* Layered components
+* Absolute badges
+* Floating buttons
+* Sticky navigation
+* Modal positioning
+
+**Build: A dashboard with sticky navbar, floating notification button and modal.**
+
+
+[Positioning](UI_07/README.md)
 
