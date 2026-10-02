@@ -253,6 +253,37 @@ Topics to learn:
 
 **Build: An AI-tech hero section with background image, gradient overlay and CTA.**
 
+[Positioning](UI_08/README.md)
+
+
+
+### 9. Tailwind CSS UI_09
+
+**States & Interaction**
+
+```text
+This is where Tailwind becomes interactive. You can change styles depending on what the user is doing: hovering, focusing, clicking, checking a checkbox, disabling a button, etc.
+```
+**Understand tailwind CSS States & Interaction**
+
+Topics to learn:
+
+* hover:
+* focus:
+* active:
+* visited:
+* disabled:
+* checked:
+* group-hover:
+* group-focus:
+* peer
+* peer-*
+* Focus-visible states
+* Button interaction states
+* Form interaction states
+* Card hover effects
+
+**Build: An interactive login form with complete focus, error and disabled states.**
 
 [Positioning](UI_08/README.md)
 
