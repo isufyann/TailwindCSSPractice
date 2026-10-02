@@ -1,8 +1,29 @@
 
 # UI_08 Tailwind Background
 
+```code
 
+export default function UI08() {
+    return (
+        <div className="relative min-h-screen">
+            <div className="relative bg-[url('/img/img_profile2.png')] bg-cover h-300">
+                <div className="absolute bg-black/70 inset-10 rounded-2xl p-20 space-y-5">
+                    <p className="uppercase text-blue-700 text-xl">Next Mind Creation</p>
+                    <h1 className="font-bold text-5xl text-white">Build the Future with AI</h1>
+                    <p className="text-lg text-white max-w-1/2">Create intelligent applications using modern artificial intelligence and advanced technology.
+                    </p>
+                    <button className="bg-blue-700 px-5 py-3 rounded-2xl text-white font-bold">Get Started</button>
+                </div>
+            </div>
+        </div>
+    );
+}
 ```
+
+
+
+**GPT**
+```code
 export default function UI() {
   return (
     <div className="min-h-screen bg-slate-100">
