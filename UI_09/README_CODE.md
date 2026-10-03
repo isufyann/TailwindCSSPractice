@@ -1,4 +1,4 @@
-# UI_08
+# UI_09
 ## state and interaction variants Like Focus, Hover, Active.
 
 
@@ -35,6 +35,59 @@ export default function UI08() {
                 </div>
             </div>
         </div>
+    );
+}
+```
+
+
+# UI_09
+## Beautiful login page.
+
+```
+export default function UI09() {
+    return (
+
+        <main className="bg-gray-100 min-h-screen justify-center items-center flex">
+            <div className="w-full max-w-md bg-white px-3 py-5 rounded-2xl">
+                <div className="text-center">
+                    <h1 className="text-4xl font-bold p-3">Welcome Back</h1>
+                    <p className="text-gray-500">Login to your Account</p>
+                </div>
+                <form className="">
+                    <div className="flex flex-col px-5 py-5">
+                        <label className="text-gray-700 py-1 text-sm">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            placeholder="isufyann@gmail.com"
+                            className="px-3 py-3 border border-gray-700 rounded-xl" />
+                        <label className="text-gray-700 py-1 pt-7 text-sm">
+                            Email
+                        </label>
+                        <input
+                            type="password"
+                            placeholder="••••••••"
+                            className="px-3 py-3 border border-gray-700 rounded-xl" />
+                    </div>
+
+                    <div className="flex text-center justify-between px-5">
+                        <label>
+                            <input type="checkbox"
+                                className="text-xl h-4 w-5" >
+                            </input>
+                            <span className="px-3 items-center">Remember Me</span>
+                        </label>
+                        <a href="#" className="text-blue-700 text-sm">Forgot Password</a>
+                    </div>
+                </form>
+                <button className="bg-blue-600 w-full px-3 py-3 my-5 rounded-2xl text-white font-bold text-lg hover:bg-blue-700">Login</button>
+                <div className="flex justify-center text-sm">
+                    <p className="text-gray-600">Don't have an account? <a href="#" className="text-blue-700">Create Account</a></p>
+                </div>
+            </div>
+
+        </main>
     );
 }
 ```
