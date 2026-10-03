@@ -2,6 +2,7 @@
 ## state and interaction variants Like Focus, Hover, Active.
 
 
+```code
 export default function UI08() {
     return (
         <div className="relative min-h-screen">
@@ -36,3 +37,4 @@ export default function UI08() {
         </div>
     );
 }
+```
