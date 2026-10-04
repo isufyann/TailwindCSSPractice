@@ -50,6 +50,59 @@ body {
 
 ```
 
+---
+## UI_10 cards
+
+```
+
+
+export default function UI10() {
+    return (
+        <div className="min-h-screen bg-gray-100 mt-5 p-10">
+            <div className="flex flex-col items-center px-5 py-7">
+                <h1 className="text-4xl font-bold">Choose Your Plan</h1>
+                <p className="text-gray-500 p-3">Simple pricing for every stage of your business.</p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mx-25">
+                <div className="bg-white rounded-2xl  flex flex-col px-3 py-7 group hover:-translate-y-3 transition duration-300 hover:shadow-2xl hover:shadow-gray-30">
+                    <div className="bg-blue-200 p-3 text-4xl rounded-2xl w-fit group-hover:rotate-10 duration-300">
+                        🚀
+                    </div>
+                    <h2 className="font-bold text-2xl px-2 py-5">Starter</h2>
+                    <p className="text-md pb-7 ">For individuals getting started.</p>
+                    <p className="text-gray-500 pb-7"><span className="font-bold text-5xl text-black">$9</span>/month</p>
+                    <button className="bg-blue-700 px-25 mx-auto py-3 rounded-2xl text-white font-bold">Get Started</button>
+                </div>
+                <div className="bg-white rounded-2xl  flex flex-col px-3 py-7 group hover:-translate-y-3 transition duration-300 hover:shadow-2xl hover:shadow-gray-30">
+                    <div className="bg-blue-200 p-3 text-4xl rounded-2xl w-fit group-hover:rotate-10 duration-300">
+                        🚀
+                    </div>
+                    <h2 className="font-bold text-2xl px-2 py-5">Professional</h2>
+                    <p className="text-md pb-7 ">For growing businesses.</p>
+                    <p className="text-gray-500 pb-7"><span className="font-bold text-5xl text-black">$29</span>/month</p>
+                    <button className="bg-blue-700 px-25 mx-auto py-3 rounded-2xl text-white font-bold">Get Started</button>
+                </div>
+                <div className="bg-white rounded-2xl  flex flex-col px-3 py-7 group hover:-translate-y-3 transition duration-300 hover:shadow-2xl hover:shadow-gray-30">
+                    <div className="bg-blue-200 p-3 text-4xl rounded-2xl w-fit group-hover:rotate-10 duration-300">
+                        🚀
+                    </div>
+                    <h2 className="font-bold text-2xl px-2 py-5">Enterprise</h2>
+                    <p className="text-md pb-7 ">For large organizations.</p>
+                    <p className="text-gray-500 pb-7"><span className="font-bold text-5xl text-black">$99</span>/month</p>
+                    <button className="bg-blue-700 px-25 mx-auto py-3 rounded-2xl text-white font-bold">Get Started</button>
+                </div>
+            </div>
+
+        </div>
+    );
+}
+```
+
+---
+
+
+## GPT Code
 
 ```
   export default function UI() {
@@ -180,6 +233,10 @@ body {
     );
   }
 ```
+
+---
+
+## Fancy Button only
 
 ```
 <button className="
