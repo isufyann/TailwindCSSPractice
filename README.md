@@ -132,7 +132,6 @@ Topics to learn next:
 
 ---
 
-
 ### 5. Tailwind CSS UI_05
 
 **Colors & Visual Design:**
@@ -197,6 +196,8 @@ Topics to learn:
 
 ### 7. Tailwind CSS UI_07
 
+---
+
 **Positioning**
 
 ```text
@@ -227,6 +228,8 @@ Topics to learn:
 
 [Positioning](UI_07/README.md)
 
+---
+
 ### 8. Tailwind CSS UI_08
 
 **Images & Backgrounds**
@@ -255,7 +258,7 @@ Topics to learn:
 
 [Images & Background](UI_08/README.md)
 
-
+---
 
 ### 9. Tailwind CSS UI_09
 
@@ -287,6 +290,7 @@ Topics to learn:
 
 [States & Interaction](UI_09/README.md)
 
+---
 
 ### 10. Tailwind CSS UI_10
 
@@ -326,4 +330,42 @@ Topics to learn:
 **Build: Animated product cards with hover scale, shadow and button transitions.**
 
 [Transitions & Animation](UI_09/README.md)
+
+---
+
+
+### 11. Tailwind CSS UI-11 — Forms & Form Styling
+
+**Tailwind CSS — Forms Styling**
+
+**This lesson focuses on building professional, responsive forms in Tailwind CSS, including input states, validation states, and different form layouts.**
+
+
+**Understand tailwind CSS**
+
+Topics to learn:
+
+|Topic|	What you'll learn|
+|------|-----------------|
+|Input| styling	Style text, email, password, number, etc.|
+|Select| styling	Create clean dropdown/select fields|
+|Checkbox| styling	Style checkbox inputs|
+|Radio| styling	Style radio button inputs|
+|Textarea| styling	Style multi-line text fields|
+|Placeholder| styling	Customize placeholder text|
+|Focus styling|	focus:, focus-within:, focus rings|
+|Error states|	Show invalid input with error styling|
+|Success states|	Show valid input with success styling|
+|Disabled states|	Style disabled form controls|
+|Form layouts|	Single-column, two-column, grouped forms|
+|Responsive forms|	Make forms work on mobile, tablet, desktop|
+|Build|	Complete registration form with validation-state UI|
+
+**Build: Complete registration form with validation-state UI.**
+
+[Forms & Styling](UI_10/README.md)
+
+---
+
+
 
