@@ -292,14 +292,14 @@ Topics to learn:
 
 **Tailwind CSS — Transitions, Transforms & Animations**
 
-```text
-These utilities are used to make UI elements feel smooth, interactive, and professional.
+
+**These utilities are used to make UI elements feel smooth, interactive, and professional.**
 
 Think of them in 3 parts:
 * Transition → how smoothly a change happens
 * Transform → how an element moves/changes shape
 * Animation → continuous or predefined movement
-```
+
 
 **Understand tailwind CSS Transitions**
 Topics to learn:
