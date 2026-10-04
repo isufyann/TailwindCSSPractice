@@ -11,6 +11,14 @@ Transform → how an element moves/changes shape
 Animation → continuous or predefined movement
 ```
 
+```
+Transition = smoothness
+
+Transform = movement/change
+
+Animation = automatic motion
+```
+
 ## 1. transition
 
 transition makes CSS property changes happen smoothly instead of instantly.
