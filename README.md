@@ -253,7 +253,7 @@ Topics to learn:
 
 **Build: An AI-tech hero section with background image, gradient overlay and CTA.**
 
-[Positioning](UI_08/README.md)
+[Images & Background](UI_08/README.md)
 
 
 
@@ -285,24 +285,26 @@ Topics to learn:
 
 **Build: An interactive login form with complete focus, error and disabled states.**
 
-[Positioning](UI_08/README.md)
+[States & Interaction](UI_09/README.md)
 
 
 ### 10. Tailwind CSS UI_10
 
 **Tailwind CSS — Transitions, Transforms & Animations**
 
-
 **These utilities are used to make UI elements feel smooth, interactive, and professional.**
 
 Think of them in 3 parts:
+
 * Transition → how smoothly a change happens
 * Transform → how an element moves/changes shape
 * Animation → continuous or predefined movement
 
 
 **Understand tailwind CSS Transitions**
+
 Topics to learn:
+
 * transition
 * transition-colors
 * transition-transform
