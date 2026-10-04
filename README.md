@@ -287,3 +287,41 @@ Topics to learn:
 
 [Positioning](UI_08/README.md)
 
+
+### 10. Tailwind CSS UI_10
+
+**Tailwind CSS — Transitions, Transforms & Animations**
+
+```text
+These utilities are used to make UI elements feel smooth, interactive, and professional.
+
+Think of them in 3 parts:
+* Transition → how smoothly a change happens
+* Transform → how an element moves/changes shape
+* Animation → continuous or predefined movement
+```
+
+**Understand tailwind CSS Transitions**
+Topics to learn:
+* transition
+* transition-colors
+* transition-transform
+* transition-opacity
+* Duration
+* Delay
+* Easing
+* Transform
+* Scale
+* Rotate
+* Translate
+* Skew
+* Built-in animations
+* animate-spin
+* animate-pulse
+* animate-bounce
+* Custom animations
+
+**Build: Animated product cards with hover scale, shadow and button transitions.**
+
+[Transitions & Animation](UI_09/README.md)
+
