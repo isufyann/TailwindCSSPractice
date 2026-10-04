@@ -29,6 +29,7 @@ className="
   focus:border-blue-500
   focus:ring-2
   focus:ring-blue-100
+  
   ```
 
 ---
