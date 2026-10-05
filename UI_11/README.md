@@ -74,7 +74,8 @@ A more professional input:
 
 ## 2. Select Styling
 
-A <select> can be styled similarly.
+```A <select> can be styled similarly.```
+
 
 ```
 <select
