@@ -19,6 +19,14 @@ export default function Home() {
   }
 ```
 
+## Use in styles.css 
+
+```
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+```
+
 ## Now use in Navbar to set light/dark.
 
 ```
