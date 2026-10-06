@@ -1,4 +1,4 @@
-# code reference for dark mode.
+# Code reference for Dark Mode.
 
 ## use of toggle button and change color to light/dark.
 
