@@ -847,7 +847,7 @@ export default function Footer() {
 
 ## UI_16_09 Design dashboard
 
-### app/components/Dashboard/page.tsx
+### app/components/?/page.tsx
 
 ```
 Working on it.
@@ -1216,14 +1216,57 @@ export default function Sidebar() {
 
 ## UI_16_12 Design Data Table
 
-### app/components/Dashboard/page.tsx
+### app/components/?/page.tsx
+
+```
+Working on it
+```
+
+---
+
+## UI_16_13 Design Notification Panel
+
+### app/Navbar (in main) /page.tsx
+
+```
+                    <div className="relative hover:scale-120 duration-300">
+                        <button className="text-2xl bg-gray-800 rounded-xl">🔔</button>
+                        <span className="absolute h-3 w-3 text-xs text-white -top-1 -right-1 flex items-center justify-center rounded-2xl">7</span>
+                    </div>
+```
+
+---
 
 
+## UI_16_14 Design Profile Page
 
+### I designed whole profile page.
 
+```
+All the code is uploaded on GitHub step by step.
+```
 
+---
 
+## UI_16_15 Design Setting Page
 
+### Still learning.
+
+```
+Setting page still learning.
+```
+
+---
+
+## UI_16_16 Design Authentication Page
+
+### Still learning.
+
+```
+Setting page still learning.
+```
+
+---
 
 
 
