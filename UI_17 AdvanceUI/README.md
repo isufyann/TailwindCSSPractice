@@ -31,20 +31,3 @@
 ## 1.  Personal portfolio
 
 Project completed.
-
-## 2. Blog
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br/>
-
