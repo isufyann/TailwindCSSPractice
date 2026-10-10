@@ -6,12 +6,12 @@
 ```
 1.  Personal portfolio ✅
 2.  Blog ✔️
-3.  Login page
-4.  Registration page
-5.  Pricing page
-6.  Admin dashboard
-7.  LMS dashboar
-8.  E-commerce interface
+3.  Login page ✔️
+4.  Registration page ✔️
+5.  Pricing page ✔️
+6.  Admin dashboard ✔️
+7.  LMS dashboar ✔️
+8.  E-commerce interface ✔️
 9.  CRM dashboard
 10.  Analytics dashboard
 11.  AI chatbot interface
