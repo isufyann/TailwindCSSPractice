@@ -719,6 +719,9 @@ export default function Topbar({ onSearch }: TopbarProps) {
 }
 ```
 
+
+![Image View](img_Modern_LearnHub_LMS_Dashboard.png)
+
 ## End of point.
 
 
